@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Extensions.fs" />
+        <Compile Include="Customer.fs" />
+        <Compile Include="Input.fs" />
+        <Compile Include="Program.fs" />
+        <Content Include="ExampleInput.json" />
+        <Content Include="README.md" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FSharp.Data" Version="6.0.1-beta002" />
+    </ItemGroup>
+
+</Project>
